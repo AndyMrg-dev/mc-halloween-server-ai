@@ -1,0 +1,41 @@
+# Minecraft Server Files & Directories
+.paper/
+cache/
+config/
+libraries/
+logs/
+plugins/
+versions/
+world/
+paper.rar
+*.jar
+*.log
+
+# Server Configuration Files (Contains Passwords/Data)
+banned-ips.json
+banned-players.json
+bukkit.yml
+commands.yml
+eula.txt
+ops.json
+run.bat
+server.properties
+spigot.yml
+usercache.json
+whitelist.json
+
+# Local Configuration & Database (Contains Live API Keys & Runtime Data)
+config.json
+nosferatu_data.db
+nosferatu_data.db-wal
+nosferatu_data.db-shm
+
+# C# / .NET Build Artifacts
+bin/
+obj/
+
+# Python Environments & Cache
+__pycache__/
+*.pyc
+.env
+venv/
